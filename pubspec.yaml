@@ -21,6 +21,13 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
+dependency_overrides:
+  firebase_auth_web:
+    git:
+      url: https://github.com/firebase/flutterfire.git
+      ref: hotfix/web-user-null
+      path: packages/firebase_auth/firebase_auth_web
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
